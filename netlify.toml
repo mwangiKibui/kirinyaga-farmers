@@ -1,0 +1,5 @@
+[[redirects]]
+  force=false
+  status=200
+  from="/*"
+  to="/index.html"
