@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 
 //third-party
 import {connect} from 'react-redux';
+import {Redirect} from 'react-router-dom';
 //components
 import {addProduct} from '../../../../store/product';
 import ProductUploadForm from './ProductUploadForm';
@@ -87,7 +88,7 @@ class ProductUpload extends Component {
         if(this.props.error) return this.setState({action:'Add product'});
         return this.setState({
             name:'',quantity:'',location:'',price:'',category:'',image:'',
-            preview_image:'',error:'',action:'Add product'
+            preview_image:'',error:'',action:'Add product',redirect:true
         });
 
 
@@ -95,7 +96,8 @@ class ProductUpload extends Component {
 
     render (){
         const {name,quantity,location,price,category,image,preview_image,error,action,message} = this.state;
-        return (
+        return  redirect ? (
+            <Redirect to="/account/dashboard" /> ) : (
             <ProductUploadForm
             name={name}
             quantity={quantity}
