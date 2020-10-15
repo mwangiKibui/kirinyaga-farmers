@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.main-nav-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.main-nav-title {
+  font-size: 30px;
+}
+
+.nav-header {
+  padding: 15px !important;
+  margin-top: 75px;
+}
+
+.nav-header-container {
+  margin-bottom: 140px;
+}
+
+.nav-link-active {
+  color: coral !important;
+  padding-bottom: 5px;
+  border-bottom: 1px solid coral;
+}
+
+* {
+  font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+.app-body {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.footer-section {
+  width: 100%;
+}
+
+.footer-section-links-container {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-section-links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer-section-link {
+  margin-right: 10px;
+}
+
+.footer-section-link-icon {
+  color: #aaa;
+}
+
+.footer-section-link-icon:hover {
+  color: coral;
+}
+
+.block-slider {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.block-slider-component {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.block-slider-component-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, black), to(rgba(0, 0, 0, 0.1)));
+  background: linear-gradient(to right, black 40%, rgba(0, 0, 0, 0.1));
+}
+
+.block-slider-component-content {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 10%;
+}
+
+.block-slider-heading {
+  color: #fff;
+}
+
+.block-slider-description {
+  color: #fff;
+}
+
+.block-header {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.block-header-heading {
+  font-family: "PT Sans", sans-serif !important;
+  width: 30%;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.product-card {
+  width: 80%;
+  margin: 5px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-card-media {
+  width: 100%;
+  position: relative;
+}
+
+.card-img-preview {
+  width: 100%;
+  height: 170px;
+  background: #aaa;
+}
+
+.card-img {
+  width: 100%;
+  height: 170px;
+  cursor: pointer;
+}
+
+.product-card-media-overlay {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  cursor: pointer;
+}
+
+.product-card-media-overlay-content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-card-media-heading {
+  color: #fff;
+  font-family: "PT Sans", sans-serif !important;
+  margin-left: 10px;
+}
+
+.product-card-media-heading:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-card-icon-button {
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.product-card-delete-icon {
+  color: #fff;
+  margin-top: -10px;
+}
+
+.product-card-delete-icon:hover {
+  color: red;
+}
+
+.farmers-section {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.farmers-card-container {
+  width: 100%;
+}
+
+.farmer-card {
+  width: 100%;
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+}
+
+.farmer-card-cover {
+  width: 30%;
+}
+
+.farmer-img-preview {
+  width: 100%;
+  background: #aaa;
+}
+
+.farmer-img {
+  width: 100%;
+}
+
+.farmer-card-name {
+  text-decoration: none;
+}
+
+.farmer-card-name:hover {
+  text-decoration: none;
+}
+
+.farmer-card-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+.farmer-card-social-media {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.farmer-card-social-media li {
+  padding: 0px;
+}
+
+.farmer-card-social-media-icon {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.farmer-card-social-media-icon:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.products-section {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.login-form-content {
+  width: 100%;
+  margin: 40px auto;
+  overflow-x: hide;
+}
+
+.login-form-illustration {
+  width: 100%;
+  height: 100%;
+}
+
+.signup-form-container {
+  width: 100%;
+}
+
+.signup-form-content {
+  width: 100%;
+  margin: 40px auto;
+  overflow-x: hide;
+}
+
+.signup-form-illustration {
+  width: 100%;
+  height: 100%;
+}
+
+.account-dashboard {
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+.dashboard-home-component {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.dashboard-home-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(27%, black), to(rgba(0, 0, 0, 0.1)));
+  background: linear-gradient(to right, black 27%, rgba(0, 0, 0, 0.1));
+}
+
+.dashboard-home-content {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+}
+
+.dashboard-home-content-heading {
+  color: #fff;
+}
+
+.error-section {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.error-section-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.product-upload-form-container {
+  width: 100%;
+}
+
+.product-upload-form-illustration {
+  width: 100%;
+  height: 100%;
+}
+
+.product-upload-form-content {
+  margin-top: 20px;
+}
+
+.product-upload-form-preview {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.product-upload-form-preview-img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-form-action {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.about-section {
+  width: 100%;
+}
+
+.about-section-img-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about-section-img {
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+.about-section-content {
+  width: 100%;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

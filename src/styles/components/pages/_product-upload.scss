@@ -1,0 +1,32 @@
+@import '../../variables';
+
+.product-upload-form-container{
+    width: 100%;
+};
+
+.product-upload-form-illustration{
+    width: 100%;
+    height: 100%;
+};
+
+.product-upload-form-content{
+    margin-top: 20px;
+};
+
+.product-upload-form-preview{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+};
+
+.product-upload-form-preview-img{
+    width: 100%;
+    height: 100%;
+};
+
+.product-form-action{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+}

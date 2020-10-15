@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.footer-section{
+    width: 100%;
+};
+
+.footer-section-links-container{
+    width: 100%;
+    text-align: center;
+};
+
+.footer-section-links{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+};
+
+.footer-section-link{
+    margin-right: 10px;
+};
+
+.footer-section-link-icon{
+    color:$gray-color;
+    &:hover{
+        color: $highlight-color;
+    }
+}

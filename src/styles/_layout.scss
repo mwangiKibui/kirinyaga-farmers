@@ -1,0 +1,14 @@
+@import './variables';
+
+*{
+    font-family: $font;
+}
+
+.btn{
+    margin-left: 5px;
+};
+
+.app-body{
+    width: 100%;
+    min-height: 70vh;
+}

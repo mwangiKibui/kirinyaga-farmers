@@ -1,0 +1,59 @@
+@import '../../variables';
+
+.farmers-card-container{
+    width: 100%;
+};
+
+.farmer-card{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    height: 200px;
+};
+
+.farmer-card-cover{
+    width: 30%;
+};
+
+.farmer-img-preview{
+    width: 100%;
+    background: $gray-color;
+};
+
+.farmer-img{
+    width: 100%;
+}
+
+.farmer-card-name{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.farmer-card-details{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+};
+
+.farmer-card-social-media{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+};
+
+.farmer-card-social-media li{
+    padding: 0px;
+}
+
+.farmer-card-social-media-icon{
+    color: $gray-color;
+    text-decoration:none;
+    margin-right: 10px;
+    &:hover{
+        color:$gray-color;
+        text-decoration: none;
+    }
+}
