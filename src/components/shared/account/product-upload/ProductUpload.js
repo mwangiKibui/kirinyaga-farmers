@@ -21,7 +21,8 @@ class ProductUpload extends Component {
         preview_image:'',
         error:'',
         action:'Add product',
-        message:''
+        message:'',
+        redirect:false
 
     };
 
@@ -95,7 +96,7 @@ class ProductUpload extends Component {
     }
 
     render (){
-        const {name,quantity,location,price,category,image,preview_image,error,action,message} = this.state;
+        const {name,quantity,location,price,category,image,preview_image,error,action,message,redirect} = this.state;
         return  redirect ? (
             <Redirect to="/account/dashboard" /> ) : (
             <ProductUploadForm

@@ -13,7 +13,7 @@ const DashboardHome = () => {
             <div className="dashboard-home-overlay">
                 <div className="dashboard-home-content">
                     <h5 className="dashboard-home-content-heading">
-                        Hello, its {farmer['name']}
+                        Hello, its {farmer['name']} farm
                     </h5>
                     <Link to="/account/product-upload" className="btn btn-info">
                         add product
